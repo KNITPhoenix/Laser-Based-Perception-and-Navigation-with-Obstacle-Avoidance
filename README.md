@@ -12,3 +12,6 @@ As a demonstration of our implementation of the RANSAC algorithm, publish the de
 
 The result of the perception is shown below:
 
+![alt text](https://github.com/KNITPhoenix/Laser-Based-Perception-and-Navigation-with-Obstacle-Avoidance/blob/main/lab2_perception.png?raw=true)
+
+
