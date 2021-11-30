@@ -1,4 +1,0 @@
-<launch>
-	<node name="stage" pkg="stage_ros" type="stageros" args="$(find lab2)/world/playbug2.world" />
-	<node name="target" pkg="lab2" type="bug2.py" output = "screen" />
-</launch>
