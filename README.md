@@ -15,3 +15,10 @@ The result of the perception is shown below:
 ![alt text](https://github.com/KNITPhoenix/Laser-Based-Perception-and-Navigation-with-Obstacle-Avoidance/blob/main/lab2_perception.png?raw=true)
 
 
+**Bug2 algorithm implementation**
+For this portion, we will implement the bug2 algorithm we recently learnt about. Make the robot start at (-8.0, -2.0) and it should plan its path to (4.5, 9.0). The robot will have to navigate itself avoiding the various obstacles in its way. Implementing bug2 should be straight forward. The pseudocode should be on the slides from class. Your robot will be win one of two states: GOAL SEEK and WALL FOLLOW.
+
+The key to this will be the WALL FOLLOW where you will have to use the lines detected in the previous section to drive in parallel to it. You are welcome to use this approach if you so please. You might have to redo the velocities for the new environment.
+https://f1tenth-coursekit.readthedocs.io/en/stable/assignments/labs/lab3.html
+We created a launch file bug2.launch that will launch the world, run the perception
+node, and execute your controller.
